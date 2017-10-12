@@ -15,7 +15,7 @@
 #include<string>
 using namespace std;
 
-course::course()C{
+course::course(){
     hours = 0.0;
 }
 
