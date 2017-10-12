@@ -1,9 +1,12 @@
-//********************
+/// @file college.cc
+/// @brief College class function implementation
+/// @author Matthew Aberegg
+
 //Matthew Aberegg
 //Project 3
 //CS 2401
 //10/8/2015
-//********************
+
 #include "college.h"
 #include<cstdlib>
 #include<iostream>
@@ -69,6 +72,10 @@ College& College::operator =(const College& other){
 	return * this;
 }
 
+/**
+* This function adds a new course object to the college object by adding it into the linked list
+* @param course object c
+*/
 void College::add(course& c){
 	node * previous;
 	node * cursor;
@@ -106,7 +113,10 @@ void College::add(course& c){
 		}
 	}
 }
-
+/**
+* This function removes a course object from the college object by taking a string of the coursename
+* @param string coursename
+*/
 void College::remove(std::string coursename){
 	node * previous;	
 	node * cursor;
@@ -128,6 +138,11 @@ void College::remove(std::string coursename){
 }
 }
 }
+
+/**
+* This function displays the current courses being taken along with grades and credit hours
+* @param ostream object out
+*/
 
 void College::display(std::ostream& outs){
 	node * ptr;

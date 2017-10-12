@@ -1,4 +1,9 @@
-/******************************************************
+/// @file collegemain.cc
+/// @brief Main file for college project
+/// @author John Dolan
+
+
+/*
 	This is the main for Project 3, which asks you to 
     build a container that holds a list of college courses.
     The courses are always kept in order, so they never need
@@ -10,7 +15,7 @@
     in order to do this project. You will be writing both the .h
     and the .cc file for the container.
 	John Dolan			Spring 2015
-**********************************************************/
+*/
 
 #include <iostream>
 #include <fstream>

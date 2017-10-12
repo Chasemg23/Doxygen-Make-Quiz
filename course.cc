@@ -1,8 +1,13 @@
-/***********************************************************************
+/// @file course.cc
+/// @brief Course class function implementation
+/// @author John Dolan
+
+
+/*
 	The implementation file for course.h, which describes a college
 	course.
 		John Dolan		School of EECS		Summer2013
-**************************************************************************/
+*/
 #include "course.h"
 #include<cstdlib>
 #include<iostream>
@@ -10,7 +15,7 @@
 #include<string>
 using namespace std;
 
-course::course(){
+course::course()C{
     hours = 0.0;
 }
 
